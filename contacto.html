@@ -1,0 +1,113 @@
+<!doctype html>
+
+<html>
+
+  <head>
+
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1bc5c12fcb.js" crossorigin="anonymous"></script>
+  </head>
+
+
+  <body>
+    <header>
+        <h1>Mi Refugio</h1>
+        <nav id="nav-normal">
+          <ul>
+              <li><a href="./index.html">Inicio</a></li>               
+              <li><a href="./adopta.html">Adoptá</a></li>
+              <li><a href="./colabora.html">Colaborá</a></li>
+              <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+      </nav>
+
+      <nav id="nav-chiquito">
+                <ul>
+                  <li><a href="./index.html">Inicio</a></li>
+                  <li><a href="./adopta.html">Adoptá</a></li>
+                  <li><a href="./colabora.html">Colaborá</a></li>
+                  <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+      </nav>
+    </header>
+
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-8">
+          <form id="form_mensaje" action="enviado.html"  class="bg-light">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="nombre">Nombre *</label>
+                <input type="text" class="form-control" id="nombre">
+              </div>      
+
+              <div class="col-md-6 mb-3">
+                <label for="apellido">Apellido *</label>
+                <input type="text" class="form-control" id="apellido" >
+              </div>
+            </div>
+            <div class="row">
+
+
+              <div class="input-group col-md-12 mb-3">
+
+                <div class="input-group-prepend">
+
+                    <span class="input-group-text" id="basic-addon1">@ *</span>
+
+                </div>
+
+                <input type="text" class="form-control" id="email" placeholder="tucorreo@example.com">
+              </div>
+
+            </div>
+
+            <div class="row">
+
+            <div class="col-md-12 mb-3">
+
+                <label for="tel">Teléfono (opcional)</label>
+
+                <input type="text" class="form-control" id="tel" placeholder="1111111111">
+
+              </div>
+
+            </div>
+
+            <div class="row">
+            <div class="col-md-12 mb-3">
+                <label for="mensaje">Dejá tu mensaje *</label>
+                <textarea   class="form-control" id="mensaje" rows="3"></textarea>
+              </div>
+            </div>
+
+      
+      
+            <p id="mensaje_error" class="mensaje_error">Completá todos los campos marcados con *</p>
+            <hr class="mb-4">
+            <button type="submit" id="boton_enviar" class="btn btn-primary rigth">Enviar</button>
+          </form>
+
+
+
+        </div>
+      </div>
+    </div>  
+
+  
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+</html>
+
